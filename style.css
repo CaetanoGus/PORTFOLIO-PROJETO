@@ -728,6 +728,33 @@
     padding: 0 15px;
   }
 
+/* Estilo da seção de referências do Rodapé */
+  .footer .referencias:first-of-type
+  {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--second-bg-color);
+  }
+
+  /* Estilo dos links de referências do Rodapé */
+  .footer .referencias:first-of-type a
+  {
+    margin-top: 50px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--second-bg-color);
+  }
+
+  /* Estilo dos links de referências do Rodapé */
+  .footer .referencias:first-of-type a:hover
+  {
+    color: white;
+    text-shadow: 0 0 30px var(--second-bg-color);
+    transition: 0.3s ease;
+  }
+
   /* Estilo da seção de referências do Rodapé */
   .footer .referencias
   {
